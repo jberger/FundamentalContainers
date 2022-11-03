@@ -201,7 +201,7 @@ $ docker build . -t simple
 
 * Run a container
 ```shell
-$ docker run --rm --name simple -d -p 8080:8080 simple 
+$ docker run --rm --name simple -d -p 8080:8080 simple
 ```
 
 ===
@@ -336,12 +336,25 @@ Each command in the Dockerfile
 
 <pre>
   <code
+    class="perl"
+    data-url="public/ex/traversal/unsafe.pl"
+  ></code>
+</pre>
+
+===
+
+### An Application with very bad filesystem access
+
+<pre>
+  <code
     class="dockerfile"
     data-url="public/ex/traversal/Dockerfile.unsafe"
   ></code>
 </pre>
 
 ===
+
+### Deployed together
 
 <pre>
   <code
