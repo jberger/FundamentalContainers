@@ -163,7 +163,7 @@ High-level abstraction for OS Isolation
 
 ===
 
-### package.js (deps)
+### package.json (deps)
 
 <pre>
   <code
