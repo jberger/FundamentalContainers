@@ -1,0 +1,9 @@
+FROM perl:latest
+
+RUN cpanm -n Mojolicious
+
+WORKDIR /opt/unsafe
+
+COPY unsafe.pl .
+
+CMD perl unsafe.pl daemon -l http://*:8080

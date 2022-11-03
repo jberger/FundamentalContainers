@@ -1,0 +1,10 @@
+version: '3'
+services:
+  unsafe:
+    build:
+      dockerfile: Dockerfile.unsafe
+    ports:
+      - '8080:8080'
+  protected:
+    build:
+      dockerfile: Dockerfile.protected

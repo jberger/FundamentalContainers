@@ -1,0 +1,5 @@
+FROM busybox
+
+COPY secret.txt /etc/protected
+
+CMD sleep infinity

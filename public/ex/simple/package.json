@@ -1,0 +1,13 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {},
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mojojs/core": "^1.9.0"
+  }
+}
