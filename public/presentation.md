@@ -27,6 +27,7 @@
   - Building
   - Deploying
 * Human readable
+  - Replace (or augment) documentation
 * Machine usable
 
 ===
@@ -51,6 +52,8 @@
   - OS/packaging
   - Tricky
 
+note: we'll see some examples of this later
+
 ===
 
 ### Process Isolation
@@ -60,7 +63,7 @@ Processes:
 * Consuming shared resources
 * Seeing/leaking private information
 
-note: I mention this now because I'm actually going to start our story here ...
+note: Again, we'll see some examples of this later but I mention this now because I'm actually going to start our story here ...
 
 ---
 
@@ -144,6 +147,32 @@ High-level abstraction for OS Isolation
 * Other resources via cli options at start
 
 ---
+
+## Building an Image
+
+===
+
+### Application
+
+<pre>
+  <code
+    class="javascript"
+    data-url="public/ex/simple/app.js"
+  ></code>
+</pre>
+
+===
+
+### package.js (deps)
+
+<pre>
+  <code
+    class="json"
+    data-url="public/ex/simple/package.json"
+  ></code>
+</pre>
+
+===
 
 ### Dockerfile
 
