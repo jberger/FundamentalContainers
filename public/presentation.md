@@ -4,6 +4,13 @@
 
 ---
 
+### Follow Along/See Examples
+
+* <https://github.com/jberger/FundamentalContainers>
+* <https://jberger.github.io/FundamentalContainers>
+
+---
+
 # Part 1:
 
 ## Applications
