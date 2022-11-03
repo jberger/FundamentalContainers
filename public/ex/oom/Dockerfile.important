@@ -1,0 +1,5 @@
+FROM perl:latest
+
+RUN cpanm -n Mojolicious
+
+CMD perl -Mojo -E 'a("/" => {text => "Very Important"})->start' daemon -l http://*:8080

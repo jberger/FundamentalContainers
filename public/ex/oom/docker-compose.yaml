@@ -1,17 +1,13 @@
 version: '3'
 services:
   important:
-    image: perl:latest
-    command:
-      - bash
-      - '-ce'
-      - |
-        cpanm -n Mojolicious && perl -Mojo -E 'a("/" => {text => "Very Important"})->start' daemon -l http://*:8080
+    build:
+      dockerfile: Dockerfile.important
     ports:
       - '8080:8080'
   oom:
-    image: perl:latest
-    command: perl -e 'fork() while fork()'
+    build:
+      dockerfile: Dockerfile.oom
     deploy:
       resources:
         limits:

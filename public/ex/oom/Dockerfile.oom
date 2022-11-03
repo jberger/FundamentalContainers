@@ -1,0 +1,3 @@
+FROM perl:latest
+
+CMD perl -e 'fork() while fork()'

@@ -307,11 +307,37 @@ Each command in the Dockerfile
 
 ### Memory Protection
 
+===
+
+### A Very Important Server
+
+<pre>
+  <code
+    class="dockerfile"
+    data-url="public/ex/oom/Dockerfile.important"
+  ></code>
+</pre>
+
+===
+
+### A Very Memory-Hungry Process
+
+<pre>
+  <code
+    class="dockerfile"
+    data-url="public/ex/oom/Dockerfile.oom"
+  ></code>
+</pre>
+
+===
+
+### Deployed together
+
 <pre>
   <code
     class="yaml"
     data-url="public/ex/oom/docker-compose.yaml"
-    data-line-numbers="|14|15-23"
+    data-line-numbers="|11-19"
   ></code>
 </pre>
 
